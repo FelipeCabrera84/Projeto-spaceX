@@ -1,0 +1,137 @@
+.container00{
+  &.container05{
+    background-image: url(../images/falcon9/image1.jpg);
+  }
+  &.container06{
+    background-image: url(../images/falcon9/image2.jpg);
+  }
+  &.carrossel01{
+    background-image: url(../images/falcon9/image3.jpg);
+  }
+  &.carrossel02{
+    background-image: url(../images/falcon9/image4.jpg);
+  }
+  &.carrossel03{
+    background-image: url(../images/falcon9/image5.jpg);
+  }
+  &.carrossel04{
+    background-image: url(../images/falcon9/image6.jpg);
+  }
+  &.carrossel05{
+    background-image: url(../images/falcon9/image7.jpg);
+  }
+  &.container07{
+    background-image: url(../images/falcon9/image8.jpg);
+  }
+}
+.titleFalcon9{
+  font-size: 90px;
+  font-family: "RUBIk", sans-serif;
+  font-weight: 514;
+}
+.titleContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+}
+.numbers{
+  background-color: black;
+  height: 40vh;
+  display: flex;
+ flex-direction: column;
+ justify-content: center;
+
+  .titleNumb{
+    font-size: 90px;
+  }
+
+  .subTitleNumb{
+    font-size: 20px;
+  }
+}
+.falcon9Desc{
+  font-size: 22px;
+  width: 640px;
+  line-height: 50px;
+}
+.containerFalcon9Desc{
+  display: grid;
+  height: 90vh;
+  align-items: center;
+  justify-content: left;
+}
+#overViewPosition{
+  width: 500px;
+  margin-left: 13%;
+  padding-top: 15%;
+}
+.carrosselSlide{
+  img{
+    height: 100vh;
+  }
+}
+.carousselText{
+  background-color: black;
+}
+.table {
+  --bs-table-bg: transparent !important;
+}
+.table tr td{
+  color: white !important;
+}
+@media(max-width:768px){
+  .numbers{
+    .titleNumb{
+      font-size: 80px;
+    }
+    .subTitleNumb{
+      font-size: 18px;
+    }
+  }
+  .falcon9Desc{
+    width: auto;
+  }
+  #overViewPosition{
+    padding-top: 40%;
+  }
+}
+
+@media(max-width:575px){
+  .numbers{
+    height: 60vh;
+    }
+    #overViewPosition{
+      width: auto;
+      margin-left: auto;
+    }
+  }
+@media(max-width:375px){
+  .titleFalcon9{
+    font-size: 50px;
+  }  
+  .falcon9Desc{
+    font-size: 18px;
+    line-height: auto;
+  }
+  .subTitleFalcon{
+    font-size: 16px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
